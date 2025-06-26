@@ -1,0 +1,21 @@
+Pasos para exportar e importar una base de datos MySQL usando phpMyAdmin
+
+EXPORTAR:
+1. Abre phpMyAdmin y selecciona la base de datos (por ejemplo, companydb) en el panel izquierdo.
+2. Haz clic en la pestaña "Exportar" en la parte superior.
+3. Elige el método "Rápido" y el formato "SQL".
+4. Haz clic en "Continuar".
+5. Se descargará un archivo .sql con toda la estructura y los datos de la base de datos.
+
+IMPORTAR:
+1. En el otro PC, abre phpMyAdmin.
+2. Haz clic en la pestaña "Importar".
+3. Haz clic en "Seleccionar archivo" y elige el archivo .sql exportado.
+4. Haz clic en "Continuar" para importar la base de datos.
+5. ¡Listo! Ahora tendrás la base de datos con todas las tablas y datos igual que en el equipo original.
+
+Nota: Si la base de datos ya existe, puedes eliminarla antes de importar o asegurarte de que el archivo .sql contiene la instrucción CREATE DATABASE.
+
+
+nodemon index.js
+ npm run dev
